@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D61619A429225B0200E35111 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61619A329225B0200E35111 /* Question.swift */; };
+		D61619A92922F3BC00E35111 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61619A82922F3BC00E35111 /* ViewModel.swift */; };
+		D61619AA2922F3BC00E35111 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61619A82922F3BC00E35111 /* ViewModel.swift */; };
+		D642B3C029105F16007EEC82 /* Easy_HiringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3BF29105F16007EEC82 /* Easy_HiringApp.swift */; };
+		D642B3C229105F16007EEC82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3C129105F16007EEC82 /* ContentView.swift */; };
+		D642B3C429105F18007EEC82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D642B3C329105F18007EEC82 /* Assets.xcassets */; };
+		D642B3C729105F18007EEC82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D642B3C629105F18007EEC82 /* Preview Assets.xcassets */; };
+		D642B3D129105F19007EEC82 /* Easy_HiringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3D029105F19007EEC82 /* Easy_HiringTests.swift */; };
+		D642B3DB29105F19007EEC82 /* Easy_HiringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3DA29105F19007EEC82 /* Easy_HiringUITests.swift */; };
+		D642B3DD29105F19007EEC82 /* Easy_HiringUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3DC29105F19007EEC82 /* Easy_HiringUITestsLaunchTests.swift */; };
+		D642B3F42910666B007EEC82 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3F32910666B007EEC82 /* ContentView-ViewModel.swift */; };
+		D642B3F52910666B007EEC82 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3F32910666B007EEC82 /* ContentView-ViewModel.swift */; };
+		D642B3F62910666B007EEC82 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3F32910666B007EEC82 /* ContentView-ViewModel.swift */; };
+		D642B3F829106B89007EEC82 /* SaveEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3F729106B89007EEC82 /* SaveEmailView.swift */; };
+		D642B3F929106B89007EEC82 /* SaveEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3F729106B89007EEC82 /* SaveEmailView.swift */; };
+		D642B3FA29106B89007EEC82 /* SaveEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3F729106B89007EEC82 /* SaveEmailView.swift */; };
+		D642B3FC29106C39007EEC82 /* SaveEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3FB29106C39007EEC82 /* SaveEmailViewModel.swift */; };
+		D642B3FD29106C39007EEC82 /* SaveEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3FB29106C39007EEC82 /* SaveEmailViewModel.swift */; };
+		D642B3FE29106C39007EEC82 /* SaveEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B3FB29106C39007EEC82 /* SaveEmailViewModel.swift */; };
+		D642B40129113A26007EEC82 /* MaterialDesignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B40029113A26007EEC82 /* MaterialDesignTextField.swift */; };
+		D642B40229113A26007EEC82 /* MaterialDesignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B40029113A26007EEC82 /* MaterialDesignTextField.swift */; };
+		D642B40329113A26007EEC82 /* MaterialDesignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B40029113A26007EEC82 /* MaterialDesignTextField.swift */; };
+		D642B405291159D2007EEC82 /* AnimatableCustomFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B404291159D2007EEC82 /* AnimatableCustomFontModifier.swift */; };
+		D642B406291159D2007EEC82 /* AnimatableCustomFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B404291159D2007EEC82 /* AnimatableCustomFontModifier.swift */; };
+		D642B407291159D2007EEC82 /* AnimatableCustomFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B404291159D2007EEC82 /* AnimatableCustomFontModifier.swift */; };
+		D642B40A29119BCD007EEC82 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B40929119BCD007EEC82 /* QuestionView.swift */; };
+		D642B40B29119BCD007EEC82 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B40929119BCD007EEC82 /* QuestionView.swift */; };
+		D642B40C29119BCD007EEC82 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B40929119BCD007EEC82 /* QuestionView.swift */; };
+		D642B40E29119BDD007EEC82 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B40D29119BDD007EEC82 /* QuestionViewModel.swift */; };
+		D642B40F29119BDD007EEC82 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B40D29119BDD007EEC82 /* QuestionViewModel.swift */; };
+		D642B41029119BDD007EEC82 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642B40D29119BDD007EEC82 /* QuestionViewModel.swift */; };
+		D6E16ED32924DFE80001B435 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E16ED22924DFE80001B435 /* Option.swift */; };
+		D6E16EE1292825C00001B435 /* OptionsGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E16EE0292825C00001B435 /* OptionsGroupView.swift */; };
+		D6E16EE2292825C00001B435 /* OptionsGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E16EE0292825C00001B435 /* OptionsGroupView.swift */; };
+		D6E16EE3292825C00001B435 /* OptionsGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E16EE0292825C00001B435 /* OptionsGroupView.swift */; };
+		D6F3697F293FD9E7008318D2 /* CompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F3697E293FD9E7008318D2 /* CompletionView.swift */; };
+		D6F36980293FD9E7008318D2 /* CompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F3697E293FD9E7008318D2 /* CompletionView.swift */; };
+		D6F36981293FD9E7008318D2 /* CompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F3697E293FD9E7008318D2 /* CompletionView.swift */; };
+		D6FCF37A291A4A6D00744D64 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCF379291A4A6D00744D64 /* HTTPMethod.swift */; };
+		D6FCF37C291A553A00744D64 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCF37B291A553A00744D64 /* Services.swift */; };
+		D6FCF37E291B895900744D64 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCF37D291B895900744D64 /* Request.swift */; };
+		D6FCF380291B8B6A00744D64 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCF37F291B8B6A00744D64 /* Network.swift */; };
+		D6FCF382291B94A300744D64 /* TDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCF381291B94A300744D64 /* TDError.swift */; };
+		D6FCF386291BCAC100744D64 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCF385291BCAC100744D64 /* Response.swift */; };
+		D6FCF387291BCAC100744D64 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCF385291BCAC100744D64 /* Response.swift */; };
+		D6FCF388291BCAC100744D64 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCF385291BCAC100744D64 /* Response.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D642B3CD29105F19007EEC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D642B3B429105F16007EEC82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D642B3BB29105F16007EEC82;
+			remoteInfo = "Easy Hiring";
+		};
+		D642B3D729105F19007EEC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D642B3B429105F16007EEC82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D642B3BB29105F16007EEC82;
+			remoteInfo = "Easy Hiring";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D61619A329225B0200E35111 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		D61619A82922F3BC00E35111 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D642B3BC29105F16007EEC82 /* Easy Hiring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Hiring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D642B3BF29105F16007EEC82 /* Easy_HiringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_HiringApp.swift; sourceTree = "<group>"; };
+		D642B3C129105F16007EEC82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D642B3C329105F18007EEC82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D642B3C629105F18007EEC82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D642B3CC29105F19007EEC82 /* Easy HiringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy HiringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D642B3D029105F19007EEC82 /* Easy_HiringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_HiringTests.swift; sourceTree = "<group>"; };
+		D642B3D629105F19007EEC82 /* Easy HiringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy HiringUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D642B3DA29105F19007EEC82 /* Easy_HiringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_HiringUITests.swift; sourceTree = "<group>"; };
+		D642B3DC29105F19007EEC82 /* Easy_HiringUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_HiringUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D642B3F32910666B007EEC82 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		D642B3F729106B89007EEC82 /* SaveEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveEmailView.swift; sourceTree = "<group>"; };
+		D642B3FB29106C39007EEC82 /* SaveEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveEmailViewModel.swift; sourceTree = "<group>"; };
+		D642B40029113A26007EEC82 /* MaterialDesignTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialDesignTextField.swift; sourceTree = "<group>"; };
+		D642B404291159D2007EEC82 /* AnimatableCustomFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableCustomFontModifier.swift; sourceTree = "<group>"; };
+		D642B40929119BCD007EEC82 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		D642B40D29119BDD007EEC82 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		D6E16ED22924DFE80001B435 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		D6E16EE0292825C00001B435 /* OptionsGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsGroupView.swift; sourceTree = "<group>"; };
+		D6F3697E293FD9E7008318D2 /* CompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionView.swift; sourceTree = "<group>"; };
+		D6FCF379291A4A6D00744D64 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		D6FCF37B291A553A00744D64 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		D6FCF37D291B895900744D64 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		D6FCF37F291B8B6A00744D64 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		D6FCF381291B94A300744D64 /* TDError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDError.swift; sourceTree = "<group>"; };
+		D6FCF385291BCAC100744D64 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D642B3B929105F16007EEC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D642B3C929105F19007EEC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D642B3D329105F19007EEC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D61619A229225AE900E35111 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D61619A329225B0200E35111 /* Question.swift */,
+				D6E16ED22924DFE80001B435 /* Option.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D642B3B329105F16007EEC82 = {
+			isa = PBXGroup;
+			children = (
+				D642B3BE29105F16007EEC82 /* Easy Hiring */,
+				D642B3CF29105F19007EEC82 /* Easy HiringTests */,
+				D642B3D929105F19007EEC82 /* Easy HiringUITests */,
+				D642B3BD29105F16007EEC82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D642B3BD29105F16007EEC82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D642B3BC29105F16007EEC82 /* Easy Hiring.app */,
+				D642B3CC29105F19007EEC82 /* Easy HiringTests.xctest */,
+				D642B3D629105F19007EEC82 /* Easy HiringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D642B3BE29105F16007EEC82 /* Easy Hiring */ = {
+			isa = PBXGroup;
+			children = (
+				D6F3697D293FD9CA008318D2 /* Completion */,
+				D6FCF377291A4A1B00744D64 /* Core */,
+				D642B40829119BBC007EEC82 /* Question */,
+				D642B3FF2911384A007EEC82 /* Custom */,
+				D642B3E92910609F007EEC82 /* SaveEmail */,
+				D642B3BF29105F16007EEC82 /* Easy_HiringApp.swift */,
+				D642B3C129105F16007EEC82 /* ContentView.swift */,
+				D642B3C329105F18007EEC82 /* Assets.xcassets */,
+				D642B3C529105F18007EEC82 /* Preview Content */,
+				D642B3F32910666B007EEC82 /* ContentView-ViewModel.swift */,
+			);
+			path = "Easy Hiring";
+			sourceTree = "<group>";
+		};
+		D642B3C529105F18007EEC82 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D642B3C629105F18007EEC82 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D642B3CF29105F19007EEC82 /* Easy HiringTests */ = {
+			isa = PBXGroup;
+			children = (
+				D642B3D029105F19007EEC82 /* Easy_HiringTests.swift */,
+			);
+			path = "Easy HiringTests";
+			sourceTree = "<group>";
+		};
+		D642B3D929105F19007EEC82 /* Easy HiringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D642B3DA29105F19007EEC82 /* Easy_HiringUITests.swift */,
+				D642B3DC29105F19007EEC82 /* Easy_HiringUITestsLaunchTests.swift */,
+			);
+			path = "Easy HiringUITests";
+			sourceTree = "<group>";
+		};
+		D642B3E92910609F007EEC82 /* SaveEmail */ = {
+			isa = PBXGroup;
+			children = (
+				D642B3F729106B89007EEC82 /* SaveEmailView.swift */,
+				D642B3FB29106C39007EEC82 /* SaveEmailViewModel.swift */,
+			);
+			path = SaveEmail;
+			sourceTree = "<group>";
+		};
+		D642B3FF2911384A007EEC82 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				D642B40029113A26007EEC82 /* MaterialDesignTextField.swift */,
+				D642B404291159D2007EEC82 /* AnimatableCustomFontModifier.swift */,
+				D6E16EE0292825C00001B435 /* OptionsGroupView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		D642B40829119BBC007EEC82 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				D61619A229225AE900E35111 /* Models */,
+				D642B40929119BCD007EEC82 /* QuestionView.swift */,
+				D642B40D29119BDD007EEC82 /* QuestionViewModel.swift */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
+		D6F3697D293FD9CA008318D2 /* Completion */ = {
+			isa = PBXGroup;
+			children = (
+				D6F3697E293FD9E7008318D2 /* CompletionView.swift */,
+			);
+			path = Completion;
+			sourceTree = "<group>";
+		};
+		D6FCF377291A4A1B00744D64 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D6FCF378291A4A2200744D64 /* Network */,
+				D61619A82922F3BC00E35111 /* ViewModel.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D6FCF378291A4A2200744D64 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D6FCF379291A4A6D00744D64 /* HTTPMethod.swift */,
+				D6FCF37B291A553A00744D64 /* Services.swift */,
+				D6FCF37D291B895900744D64 /* Request.swift */,
+				D6FCF37F291B8B6A00744D64 /* Network.swift */,
+				D6FCF381291B94A300744D64 /* TDError.swift */,
+				D6FCF385291BCAC100744D64 /* Response.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D642B3BB29105F16007EEC82 /* Easy Hiring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D642B3E029105F19007EEC82 /* Build configuration list for PBXNativeTarget "Easy Hiring" */;
+			buildPhases = (
+				D642B3B829105F16007EEC82 /* Sources */,
+				D642B3B929105F16007EEC82 /* Frameworks */,
+				D642B3BA29105F16007EEC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Hiring";
+			productName = "Easy Hiring";
+			productReference = D642B3BC29105F16007EEC82 /* Easy Hiring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D642B3CB29105F19007EEC82 /* Easy HiringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D642B3E329105F19007EEC82 /* Build configuration list for PBXNativeTarget "Easy HiringTests" */;
+			buildPhases = (
+				D642B3C829105F19007EEC82 /* Sources */,
+				D642B3C929105F19007EEC82 /* Frameworks */,
+				D642B3CA29105F19007EEC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D642B3CE29105F19007EEC82 /* PBXTargetDependency */,
+			);
+			name = "Easy HiringTests";
+			productName = "Easy HiringTests";
+			productReference = D642B3CC29105F19007EEC82 /* Easy HiringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D642B3D529105F19007EEC82 /* Easy HiringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D642B3E629105F19007EEC82 /* Build configuration list for PBXNativeTarget "Easy HiringUITests" */;
+			buildPhases = (
+				D642B3D229105F19007EEC82 /* Sources */,
+				D642B3D329105F19007EEC82 /* Frameworks */,
+				D642B3D429105F19007EEC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D642B3D829105F19007EEC82 /* PBXTargetDependency */,
+			);
+			name = "Easy HiringUITests";
+			productName = "Easy HiringUITests";
+			productReference = D642B3D629105F19007EEC82 /* Easy HiringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D642B3B429105F16007EEC82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D642B3BB29105F16007EEC82 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					D642B3CB29105F19007EEC82 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = D642B3BB29105F16007EEC82;
+					};
+					D642B3D529105F19007EEC82 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = D642B3BB29105F16007EEC82;
+					};
+				};
+			};
+			buildConfigurationList = D642B3B729105F16007EEC82 /* Build configuration list for PBXProject "Easy Hiring" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D642B3B329105F16007EEC82;
+			productRefGroup = D642B3BD29105F16007EEC82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D642B3BB29105F16007EEC82 /* Easy Hiring */,
+				D642B3CB29105F19007EEC82 /* Easy HiringTests */,
+				D642B3D529105F19007EEC82 /* Easy HiringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D642B3BA29105F16007EEC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D642B3C729105F18007EEC82 /* Preview Assets.xcassets in Resources */,
+				D642B3C429105F18007EEC82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D642B3CA29105F19007EEC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D642B3D429105F19007EEC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D642B3B829105F16007EEC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F3697F293FD9E7008318D2 /* CompletionView.swift in Sources */,
+				D6FCF380291B8B6A00744D64 /* Network.swift in Sources */,
+				D6E16EE1292825C00001B435 /* OptionsGroupView.swift in Sources */,
+				D61619A429225B0200E35111 /* Question.swift in Sources */,
+				D642B40A29119BCD007EEC82 /* QuestionView.swift in Sources */,
+				D6FCF37E291B895900744D64 /* Request.swift in Sources */,
+				D642B405291159D2007EEC82 /* AnimatableCustomFontModifier.swift in Sources */,
+				D6FCF386291BCAC100744D64 /* Response.swift in Sources */,
+				D6E16ED32924DFE80001B435 /* Option.swift in Sources */,
+				D642B3F829106B89007EEC82 /* SaveEmailView.swift in Sources */,
+				D6FCF37C291A553A00744D64 /* Services.swift in Sources */,
+				D642B3FC29106C39007EEC82 /* SaveEmailViewModel.swift in Sources */,
+				D642B3C229105F16007EEC82 /* ContentView.swift in Sources */,
+				D61619A92922F3BC00E35111 /* ViewModel.swift in Sources */,
+				D642B3F42910666B007EEC82 /* ContentView-ViewModel.swift in Sources */,
+				D642B40129113A26007EEC82 /* MaterialDesignTextField.swift in Sources */,
+				D642B40E29119BDD007EEC82 /* QuestionViewModel.swift in Sources */,
+				D6FCF37A291A4A6D00744D64 /* HTTPMethod.swift in Sources */,
+				D6FCF382291B94A300744D64 /* TDError.swift in Sources */,
+				D642B3C029105F16007EEC82 /* Easy_HiringApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D642B3C829105F19007EEC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F36980293FD9E7008318D2 /* CompletionView.swift in Sources */,
+				D642B3D129105F19007EEC82 /* Easy_HiringTests.swift in Sources */,
+				D642B3F52910666B007EEC82 /* ContentView-ViewModel.swift in Sources */,
+				D642B406291159D2007EEC82 /* AnimatableCustomFontModifier.swift in Sources */,
+				D61619AA2922F3BC00E35111 /* ViewModel.swift in Sources */,
+				D642B40B29119BCD007EEC82 /* QuestionView.swift in Sources */,
+				D6FCF387291BCAC100744D64 /* Response.swift in Sources */,
+				D642B3FD29106C39007EEC82 /* SaveEmailViewModel.swift in Sources */,
+				D642B40229113A26007EEC82 /* MaterialDesignTextField.swift in Sources */,
+				D6E16EE2292825C00001B435 /* OptionsGroupView.swift in Sources */,
+				D642B40F29119BDD007EEC82 /* QuestionViewModel.swift in Sources */,
+				D642B3F929106B89007EEC82 /* SaveEmailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D642B3D229105F19007EEC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F36981293FD9E7008318D2 /* CompletionView.swift in Sources */,
+				D642B40C29119BCD007EEC82 /* QuestionView.swift in Sources */,
+				D642B407291159D2007EEC82 /* AnimatableCustomFontModifier.swift in Sources */,
+				D642B3FA29106B89007EEC82 /* SaveEmailView.swift in Sources */,
+				D642B3FE29106C39007EEC82 /* SaveEmailViewModel.swift in Sources */,
+				D6FCF388291BCAC100744D64 /* Response.swift in Sources */,
+				D642B3DB29105F19007EEC82 /* Easy_HiringUITests.swift in Sources */,
+				D642B3F62910666B007EEC82 /* ContentView-ViewModel.swift in Sources */,
+				D642B40329113A26007EEC82 /* MaterialDesignTextField.swift in Sources */,
+				D6E16EE3292825C00001B435 /* OptionsGroupView.swift in Sources */,
+				D642B41029119BDD007EEC82 /* QuestionViewModel.swift in Sources */,
+				D642B3DD29105F19007EEC82 /* Easy_HiringUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D642B3CE29105F19007EEC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D642B3BB29105F16007EEC82 /* Easy Hiring */;
+			targetProxy = D642B3CD29105F19007EEC82 /* PBXContainerItemProxy */;
+		};
+		D642B3D829105F19007EEC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D642B3BB29105F16007EEC82 /* Easy Hiring */;
+			targetProxy = D642B3D729105F19007EEC82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D642B3DE29105F19007EEC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D642B3DF29105F19007EEC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D642B3E129105F19007EEC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Easy Hiring/Preview Content\"";
+				DEVELOPMENT_TEAM = 7L7DASC943;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kolsarici.Easy-Hiring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D642B3E229105F19007EEC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Easy Hiring/Preview Content\"";
+				DEVELOPMENT_TEAM = 7L7DASC943;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kolsarici.Easy-Hiring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D642B3E429105F19007EEC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7L7DASC943;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kolsarici.Easy-HiringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Hiring.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Easy Hiring";
+			};
+			name = Debug;
+		};
+		D642B3E529105F19007EEC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7L7DASC943;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kolsarici.Easy-HiringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Hiring.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Easy Hiring";
+			};
+			name = Release;
+		};
+		D642B3E729105F19007EEC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7L7DASC943;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kolsarici.Easy-HiringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Easy Hiring";
+			};
+			name = Debug;
+		};
+		D642B3E829105F19007EEC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7L7DASC943;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kolsarici.Easy-HiringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Easy Hiring";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D642B3B729105F16007EEC82 /* Build configuration list for PBXProject "Easy Hiring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D642B3DE29105F19007EEC82 /* Debug */,
+				D642B3DF29105F19007EEC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D642B3E029105F19007EEC82 /* Build configuration list for PBXNativeTarget "Easy Hiring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D642B3E129105F19007EEC82 /* Debug */,
+				D642B3E229105F19007EEC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D642B3E329105F19007EEC82 /* Build configuration list for PBXNativeTarget "Easy HiringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D642B3E429105F19007EEC82 /* Debug */,
+				D642B3E529105F19007EEC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D642B3E629105F19007EEC82 /* Build configuration list for PBXNativeTarget "Easy HiringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D642B3E729105F19007EEC82 /* Debug */,
+				D642B3E829105F19007EEC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D642B3B429105F16007EEC82 /* Project object */;
+}
